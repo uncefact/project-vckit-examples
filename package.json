@@ -13,7 +13,8 @@
     "start:bob": "NODE_ENV=production yarn vckit server --config=./aip-bob/agent.yml",
     "start:faber": "NODE_ENV=production yarn vckit server --config=./faber/agent.yml",
     "start:mallory": "NODE_ENV=production yarn vckit server --config=./mallory/agent.yml",
-    "dev": "yarn vckit server --config=./config/agent-local.yml"
+    "start": "./start.sh",
+    "start:local": "yarn vckit server --config=./config/agent-local.yml"
   },
   "dependencies": {
     "@vckit/cli": "^1.0.0-beta.4",
